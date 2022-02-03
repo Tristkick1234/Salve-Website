@@ -1,0 +1,10 @@
+-separated stylesheet made header css
+-added several pages
+-changed the 3 grid entries
+-shortened navbar to home about and contact
+-changed the responsiviness of the navbar
+-changed the font size and weight of navbar and other elements
+-added a footer that has a shadow and completed lets get started
+-changed the color of covid 19 assistance
+-changed the responsiviness of 3 and images
+-finished home page
