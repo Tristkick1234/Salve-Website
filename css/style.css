@@ -1,0 +1,152 @@
+
+:root{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Box sections*/
+
+.box{
+    box-sizing: border-box;
+    padding: 45px;
+    
+    font-size: 1.5rem;
+
+}
+
+#main{
+    margin:10px 0 60px 0;
+    height: 100vh;
+    background-image: url("../images/business-hands-on-table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.938);
+    
+}
+
+#main h2{
+    position: relative;
+    width: 75%;
+    font-size: 3rem;
+}
+
+.entries_box{
+    display:grid;
+    grid-gap: 50px 50px;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 45px;
+    
+    
+}
+
+.entry{
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding:45px;
+    box-shadow: #000000 10px 10px 20px;
+    font-weight: 1000;
+    border-radius: 5px;
+
+}
+h2{
+    text-align: center;
+    font-size: 3rem;
+}
+p{
+    font-size: 2rem;
+}
+#news{
+    display:grid;
+    grid-gap: 0px 0px;
+    grid-template-columns: auto auto;
+    
+    padding:0;
+
+}
+
+.news_entry{
+    float: left;
+    background-color: white;
+    padding:50px 50px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+#nextmain{
+    color:white;
+    background-color: grey;
+    background-size: cover;
+    border-bottom:10px solid white;
+    font-weight: 1000;
+}
+
+#lastmain{
+    
+    color:white;
+    background-color: grey;
+   border-bottom: 5px solid white ;
+}
+
+footer{
+    color: black;
+    font-size: 1.25rem;
+    background-color: #ffffff;
+    margin: 25px;
+    padding: 25px;
+    box-shadow: black 10px 10px 20px;
+}
+/*sizing options*/
+@media  screen and (max-width: 700px){
+    .entries_box{
+        display:grid;
+        grid-gap: 50px 50px;
+        grid-template-columns: auto;
+        padding-bottom: 45px;
+        
+        
+    }
+
+    .entry{
+        width: 100%;
+        float: left;
+    }
+
+    #news{
+        display:grid;
+        grid-template-columns: auto;
+        padding:0;
+    
+    }
+
+    .news_entry{
+        float: left;
+        background-color: white;
+        padding:50px 50px;
+        text-align: center;
+    }
+    
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    
+    
+
+}
+    
+
+
