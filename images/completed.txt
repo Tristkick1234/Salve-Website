@@ -1,0 +1,2 @@
+-contacts page completed
+-added header, contact cards and info
