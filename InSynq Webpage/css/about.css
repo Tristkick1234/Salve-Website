@@ -1,0 +1,58 @@
+.intro{
+    padding:45px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:10px;
+}
+
+.intro-entry-head{
+    grid-column:1/4;
+}
+.intro-entry{
+    padding:10px;
+    background-color: ghostwhite;
+    border-radius: 5px;
+}
+
+.history{
+    padding:10px;
+}
+.timeline{
+    padding:50px;
+    font-size: 3rem;
+    font-weight: 1000;
+    color: white;
+    background-color: black;
+    text-align: center;
+    
+}
+
+#to-e{
+    margin: 0px 0px 10px 0px;
+    
+}
+
+h2{
+    border-bottom: 3px solid black;
+    border-width: 50%;
+    
+}
+p{
+    font-weight: 500;
+}
+
+.ref-container{
+    text-align: center;
+}
+
+.ref-entry{
+    padding: 10px;
+}
+footer{
+    color: black;
+    font-size: 1.25rem;
+    background-color: #ffffff;
+    margin: 25px;
+    padding: 25px;
+    box-shadow: black 10px 10px 20px;
+}
